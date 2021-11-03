@@ -1,3 +1,4 @@
+import "./App.css";
 import Canvas from "./components/Canvas/Canvas";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Canvas draw={draw} />
+      <Canvas draw={draw} width="352" height="198" />
     </div>
   );
 }
